@@ -16,8 +16,6 @@ __priority__ = PRIORITY.HIGHER
 
 def dependencies():
     singleTimeWarnMessage("tamper script '%s' is only meant to be run against %s" % (os.path.basename(__file__).split(".")[0], DBMS.MYSQL))
-
-def tamper(payload, **kwargs):
     """
     Works with only MySql DBMS
 
